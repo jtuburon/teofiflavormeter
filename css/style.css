@@ -1,0 +1,81 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#FFFFFF;
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+}
+
+
+.content_text {
+	font-weight:bold;
+	font-size:5em;
+	color:#fff;
+}
+
+#tuner_container{
+	height:60px;
+	width:100%;	
+}
+.tuner_frame {
+	width:9%;
+	height:100%;
+	float:left;
+	border-color: #000000;
+	border-style: solid;
+	border-width:thin;
+}
+
+.green_frame{
+	background-color:#0dff00;	
+}
+
+.yellow_frame{
+	background-color:#ffff00;
+}
+
+.red_frame{
+	background-color:#FF0000;
+}
+
+#btns_container {
+	height:35px;
+	width:100%;	
+}
+
+.option_btn {
+	text-align:center;
+	width:40%;
+	height:100%;
+	margin-right: 10px;
+	background-color:#0000FF;
+	color: #FFFFFF;
+	padding-top:15px;
+}
+
+#startBtn{
+	float:left;
+}
+
+#stopBtn{
+	float:right;
+}
+
+#message{
+	height: 12px;
+	text-align:center;
+}
+
+#hidden_msg{
+	height: 12px;
+	text-align:center;
+}
